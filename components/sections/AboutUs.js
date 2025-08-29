@@ -10,7 +10,7 @@ const AboutUs = () => {
         <div className="py-12 text-center text-gray-primary">
           <p className="text-5xl font-medium">500+ Firms. Zero Regrets.</p>
         </div>
-        <div className="grid grid-cols-3 gap-10">
+        <div className="grid grid-cols-3 gap-6">
           <ProfileCard
             desc="ClientQ saved us 20 hours per case. Clients get it now, and their answers make sense the first time."
             profileImg={ProfileImg1}

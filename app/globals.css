@@ -46,6 +46,21 @@ body {
     linear-gradient(0deg, #282D35 0%, rgba(40, 45, 53, 0.36) 100%);
 }
 
+.roi-card {
+  background: linear-gradient(360deg, rgba(122, 127, 153, 0.1) 0%, rgba(37, 38, 46, 0.07) 51.69%);
+  border: 0.97px solid;
+  border-image-source: linear-gradient(0deg, #282D35 0%, rgba(40, 45, 53, 0.36) 100%);
+  backdrop-filter: blur(90.95255279541016px)
+}
+
+.draft-card {
+  background: linear-gradient(360deg, rgba(122, 127, 153, 0.16) 0%, rgba(37, 38, 46, 0.112) 51.69%);
+  border: 0.72px solid;
+  border-image-source: linear-gradient(180deg, #282D35 0%, rgba(40, 45, 53, 0.36) 100%),
+    linear-gradient(0deg, #059AF4 0%, rgba(40, 45, 53, 0.36) 100%);
+  backdrop-filter: blur(67.2420425415039px)
+}
+
 .action-card {
   border: 1px solid;
   border-image-source: linear-gradient(13.18deg, #1E1F24 78.91%, #DADEED 114.09%);

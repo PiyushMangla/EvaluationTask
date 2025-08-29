@@ -1,5 +1,6 @@
-@import url('https://fonts.googleapis.com/css2?family=Sora:wght@100..800&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Sora:wght@100..800&display=swap');
+/* @import url('https://fonts.googleapis.com/css2?family=Sora:wght@100..800&display=swap'); */
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Manrope:wght@200..800&family=Sora:wght@100..800&display=swap');
+/* @import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Sora:wght@100..800&display=swap'); */
 @import "tailwindcss";
 
 :root {
@@ -26,7 +27,9 @@
   --color-gray-primary: #F6F4FA;
   --font-inter: "Inter";
   --font-sora: "Sora", "sans-serif";
+  --font-manrope: "Manrope", "sans-serif";
   --shadow-blue-inset: inset 0px 1px 8px 0px #3067F299;
+  --bg-group: url('/assets/images/bg-group-1.png');
 }
 
 body {
@@ -35,7 +38,15 @@ body {
   font-family: Arial, Helvetica, sans-serif;
 }
 
-.action-card-border {
+.card-gradient {
+  background: linear-gradient(360deg, rgba(122, 127, 153, 0.1) 0%, rgba(37, 38, 46, 0.07) 51.69%);
+  backdrop-filter: blur(67.2420425415039px);
+  border: 0.72px solid;
+  border-image-source: linear-gradient(180deg, #282D35 0%, rgba(40, 45, 53, 0.36) 100%),
+    linear-gradient(0deg, #282D35 0%, rgba(40, 45, 53, 0.36) 100%);
+}
+
+.action-card {
   border: 1px solid;
   border-image-source: linear-gradient(13.18deg, #1E1F24 78.91%, #DADEED 114.09%);
 }

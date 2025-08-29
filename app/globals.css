@@ -85,6 +85,34 @@ body {
     linear-gradient(0deg, #282D35 0%, rgba(40, 45, 53, 0.36) 100%);
 }
 
+.discovery-card {
+  background: linear-gradient(360deg, rgba(122, 127, 153, 0.1) 0%, rgba(37, 38, 46, 0.07) 51.69%);
+  border: 0.72px solid;
+  border-image-source: linear-gradient(180deg, #282D35 0%, rgba(40, 45, 53, 0.36) 100%),
+    linear-gradient(0deg, #282D35 0%, rgba(40, 45, 53, 0.36) 100%);
+  backdrop-filter: blur(67.2420425415039px)
+}
+
+.slide-arrow {
+  background: linear-gradient(360deg, rgba(122, 127, 153, 0.2) 0%, rgba(37, 38, 46, 0.14) 51.69%);
+  border: 1.55px solid;
+  border-image-source: linear-gradient(180deg, #282D35 0%, rgba(40, 45, 53, 0.36) 100%),
+    linear-gradient(0deg, #282D35 0%, rgba(40, 45, 53, 0.36) 100%);
+  backdrop-filter: blur(97.13333892822266px);
+  box-shadow: -26.87px 4.13px 66.13px 0px #000000;
+}
+
+.slider-dots {
+  border: 1px solid;
+  border-image-source: linear-gradient(180deg, #2F323C 0%, rgba(25, 28, 41, 0) 100%),
+    linear-gradient(180deg, #8C98AB 0%, rgba(40, 45, 53, 0.36) 100%);
+}
+
+.slider-dot-selected {
+  border: 2px solid #059AF4;
+  background: linear-gradient(180deg, #666A80 0%, #000000 100%);
+}
+
 .action-card {
   border: 1px solid;
   border-image-source: linear-gradient(13.18deg, #1E1F24 78.91%, #DADEED 114.09%);

@@ -7,6 +7,12 @@ import LinkedinIcon from "@/assets/images/linkedin-icon.png"
 import SocialIcon from "../ui/SocialIcon";
 
 const Footer = () => {
+    const icons = [
+        { img: FacebookIcon, alt:"facebook-icon" },
+        { img: InstagramIcon, alt:"instagram-icon" },
+        { img: TwitterIcon, alt:"twitter-icon" },
+        { img: LinkedinIcon, alt:"linkedin-icon" },
+    ]
     return (
         <div className="mt-16 pb-5">
             <div className="flex justify-between items-center text-center">
@@ -20,10 +26,11 @@ const Footer = () => {
             <div className="flex justify-between items-center text-center">
                 <p className="m-0 text-gray-light font-sora">© 2025 LitDraft. All rights reserved.</p>
                 <div className="flex items-center text-center gap-1">
-                    <SocialIcon src={FacebookIcon} alt="facebook-icon" />
-                    <SocialIcon src={InstagramIcon} alt="instagram-icon" />
-                    <SocialIcon src={TwitterIcon} alt="twitter-icon" />
-                    <SocialIcon src={LinkedinIcon} alt="linkedin-icon" />
+                    {
+                        icons.map((icon, index) => (
+                            <SocialIcon src={icon.img} alt={icon.alt} key={index} />
+                        ))
+                    }
                 </div>
             </div>
         </div>

@@ -20,7 +20,7 @@ const DraftingCost = () => {
         <div className="pb-12 relative bg-no-repeat bg-top px-20 z-100" style={{ backgroundImage: `url(${BgGroup.src})` }}>
             <div className="py-12 text-center text-gray-primary">
                 <p className="text-6xl font-medium leading-[120%]">Still Drafting Discovery <br />
-                    Like <span className="text-[#059AF4]">It's 1995? </span></p>
+                    Like <span className="text-[#059AF4]">{"It's 1995?"} </span></p>
                 <p className="text-xl font-inter text-[#B8B7BA] mt-4">Every discovery cycle costs your firm:</p>
             </div>
             <div className="mx-24 flex flex-wrap justify-center items-stretch">
@@ -37,11 +37,10 @@ const DraftingCost = () => {
                 <div className="relative z-10 max-w-2xl">
                     <h3 className="text-5xl font-medium text-[#F6F4FA] mb-6">The Real Cost</h3>
                     <p className="text-[#C4C1C8] text-2xl mb-6">
-                        While you're reformatting boilerplate objections at 11 PM, your
-                        competitors are taking on 3x more cases with half the staff.
+                        {"While you're reformatting boilerplate objections at 11 PM, your competitors are taking on 3x more cases with half the staff."}
                     </p>
                     <p className="text-[#F7F7F7] font-bold text-3xl">
-                        There's a better way.
+                        {"There's a better way."}
                     </p>
                 </div>
 

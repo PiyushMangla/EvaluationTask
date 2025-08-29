@@ -10,7 +10,7 @@ const Discovery = () => {
             <div className="flex justify-between items-center pb-12">
                 <p className="text-[#F6F4FA] font-medium text-[50px] w-1/2 leading-[130%]">Discovery Automation That Thinks Like Your Best Litigator</p>
                 <div className="w-2/5 pl-8 pr-4">
-                    <p className="text-xl text-[#C4C1C8] leading-[150%]">LitDraft is more than document automation — it's an AI legal brain that understands context, jurisdiction, and strategy. Drafts sound like your sharpest attorney wrote them, not a template.</p>
+                    <p className="text-xl text-[#C4C1C8] leading-[150%]">{"LitDraft is more than document automation — it's an AI legal brain that understands context, jurisdiction, and strategy. Drafts sound like your sharpest attorney wrote them, not a template."}</p>
                 </div>
             </div>
             <div className="relative">

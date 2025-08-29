@@ -12,7 +12,7 @@ const Hero = () => {
                     <span className="text-[#059AF4]">Discovery Done.</span>
                 </h1>
                 <p className="text-xl text-[#E5E4E9] mb-10 max-w-2xl mx-auto leading-relaxed">
-                    LitDraft's AI drafts jurisdiction-perfect discovery requests, responses, and objections 50x faster — while your competitors are still copying and pasting.
+                    {"LitDraft's AI drafts jurisdiction-perfect discovery requests, responses, and objections 50x faster — while your competitors are still copying and pasting."}
                 </p>
                 <div className="flex justify-center">
                     <DemoButtons />

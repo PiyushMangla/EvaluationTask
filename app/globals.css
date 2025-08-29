@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Sora:wght@100..800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Sora:wght@100..800&display=swap');
 @import "tailwindcss";
 
 :root {
@@ -19,8 +21,21 @@
   }
 }
 
+@theme {
+  --color-gray-light: #BDBDBD;
+  --color-gray-primary: #F6F4FA;
+  --font-inter: "Inter";
+  --font-sora: "Sora", "sans-serif";
+  --shadow-blue-inset: inset 0px 1px 8px 0px #3067F299;
+}
+
 body {
   background: var(--background);
   color: var(--foreground);
   font-family: Arial, Helvetica, sans-serif;
+}
+
+.action-card-border {
+  border: 1px solid;
+  border-image-source: linear-gradient(13.18deg, #1E1F24 78.91%, #DADEED 114.09%);
 }

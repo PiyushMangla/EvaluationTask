@@ -12,13 +12,13 @@ export default function Home() {
   return (
     <div className="relative bg-[#040D13]">
       <HeroArea />
-      <DraftingCost />
-      <div className="px-20">
+      <div className="px-4 md:px-10 lg:px-20">
+        <DraftingCost />
         <Discovery />
         <WhyChooseUs />
       </div>
       <BeforeAfterDraft />
-      <div className="px-20">
+      <div className="px-4 md:px-10 lg:px-20">
         <ROIMeter />
         <AboutUs />
         <CallToAction />

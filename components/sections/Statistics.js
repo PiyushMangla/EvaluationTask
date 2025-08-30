@@ -8,7 +8,7 @@ const Statistics = () => {
 
     return (
         <section className="py-16 relative z-100">
-            <div className=" w-[90%] mx-auto px-6">
+            <div className="">
                 <div className="grid grid-cols-2 md:grid-cols-4 divide-y md:divide-y-0 md:divide-x divide-white/10 p-8">
                     {stats.map((stat, index) => (
                         <div key={index} className="text-center px-4">

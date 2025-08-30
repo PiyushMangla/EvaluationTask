@@ -2,7 +2,7 @@ import BrandLogo from "../ui/BrandLogo";
 
 const Header = () => {
     return (
-        <header className="relative overflow-hidden w-[90%] mx-auto mt-5 rounded-2xl border border-white/10 bg-[#059AF433] backdrop-blur flex justify-between items-center px-6 py-4">
+        <header className="relative overflow-hidden mt-5 rounded-2xl border border-white/10 bg-[#059AF433] backdrop-blur flex justify-between items-center px-6 py-4">
             <div className="relative flex items-center">
                 <BrandLogo className="h-6 md:h-7 w-auto" />
             </div>

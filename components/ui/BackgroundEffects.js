@@ -8,11 +8,11 @@ const BackgroundEffects = () => {
   return (
     <div className="absolute inset-0 pointer-events-none z-0 overflow-hidden">
       {/* Gradient Blur Elements */}
-      <div className="absolute -left-[688px] top-[1464px] w-[2813px] h-[628px] rounded-[321.5px] opacity-25 bg-gradient-to-r from-transparent via-[#059AF4] to-white blur-[83px]" />
-      <div className="absolute -left-[687px] top-[3713px] w-[2813px] h-[714px] rounded-[1110.923px] opacity-20 bg-gradient-to-r from-transparent via-[#059AF4] to-white blur-[83px]" />
+      <div className="hidden lg:block absolute -left-[688px] top-[1464px] w-[2813px] h-[628px] rounded-[321.5px] opacity-25 bg-gradient-to-r from-transparent via-[#059AF4] to-white blur-[83px]" />
+      {/* <div className="absolute -left-[687px] top-[3713px] w-[2813px] h-[714px] rounded-[1110.923px] opacity-20 bg-gradient-to-r from-transparent via-[#059AF4] to-white blur-[83px]" /> */}
 
       {/* Background Blur Shape */}
-      <svg
+      {/* <svg
         className="absolute -left-[249px] -top-[357px] w-[1941px] h-[1558px] blur-[182px]"
         width="1440"
         height="1565"
@@ -30,7 +30,7 @@ const BackgroundEffects = () => {
             <feGaussianBlur stdDeviation="182" result="effect1_foregroundBlur_1_178" />
           </filter>
         </defs>
-      </svg>
+      </svg> */}
 
       {/* Light Rays */}
       <svg
@@ -79,11 +79,11 @@ const BackgroundEffects = () => {
       {/* Decorative Background Images */}
       <Image src={Globe} alt="" aria-hidden width={680} height={680} className="absolute bottom-[280px] right-[350px] w-[215px] h-[215px] max-w-none hidden md:block" />
       <Image src={DraftGradient} alt="" aria-hidden width={520} height={520} className="absolute w-[1920px] h-[550px] max-w-none hidden md:block" />
-      <Image src={Rectangle} alt="" aria-hidden width={460} height={460} className="absolute  w-[1800px]  max-w-none hidden md:block"/>
+      {/* <Image src={Rectangle} alt="" aria-hidden width={460} height={460} className="absolute  w-[1800px]  max-w-none hidden md:block"/> */}
       <Image src={Stars} alt="" aria-hidden width={920} height={920} className="absolute left-1/2 -translate-x-1/2 -top-8 w-[1920px] h-auto max-w-none" />
 
       {/* Bottom Shadows */}
-      <svg
+      {/* <svg
         className="absolute left-0 top-[885px] w-full h-[268px]"
         width="1440"
         height="536"
@@ -109,7 +109,7 @@ const BackgroundEffects = () => {
             <feGaussianBlur stdDeviation="67" result="effect1_foregroundBlur_1_249" />
           </filter>
         </defs>
-      </svg>
+      </svg> */}
     </div>
   );
 };

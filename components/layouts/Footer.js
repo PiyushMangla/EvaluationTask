@@ -32,8 +32,8 @@ const Footer = () => {
                 <div className="flex items-center text-center gap-1">
                     {
                         icons.map((icon, index) => (
-                            <BlurFade inView delay={0.5 + 0.25 * index + 1}>
-                                <SocialIcon src={icon.img} alt={icon.alt} key={index} />
+                            <BlurFade inView delay={0.5 + 0.25 * index + 1} key={index}>
+                                <SocialIcon src={icon.img} alt={icon.alt} />
                             </BlurFade>
                         ))
                     }
